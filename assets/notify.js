@@ -107,6 +107,7 @@
             'z-index': '9999'
         });
         $(elem).focus();
+        $('.js_errorMessage').fadeOut(5000);
     }
 
     function createPhone(phone) {
@@ -179,7 +180,7 @@
         }).then(
             response => response.json()
         ).then((html) => {
-            window.location.href = './thankyou.html?fb_pixel_id=905421587132456,1891502094563555';
+            window.location.href = './thankyou.html?fb_pixel_id=905421587132456,1891502094563555,576517253904108';
         });
         
     }
